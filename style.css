@@ -17,29 +17,46 @@ main{
     width: 100vw;
 }
 .contact{
-    background-color: tomato;
+    background-color: white;
     height: 124vh;
     width: 100vw;
 }
+form{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    height: 648px;
+}
 input{
-    width: 534px;
-    height: 64px;
-    border: 1px solid #d2c2b0;
+    width: 400px;
+    height: 52px;
     border-radius: 6px;
     opacity: 0.9;
-    box-shadow: #d2c2b0;
     text-align:left;
-}
-placeholder{
+    font:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-bottom: 20px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    border-radius: 6px;
+    box-sizing: border-box;
     text-align: left;
-    font: normal normal normal 28px/32px Arial;
-    letter-spacing: 0px;
-    color: #A0A0A0;
-    opacity: 1;
+    outline: none;
+    border-style: solid;
+    border-color:gray;
+}
+#mensagem{
+    height: 282px;
+    font:Arial, Helvetica, sans-serif;
+    font-size: medium;
 }
 .enviar{
-    width: 534px;
-    height: 64px;
+    width: 400px;
+    height: 52px;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 5px;
@@ -54,6 +71,7 @@ placeholder{
     border-color: none;
     font-size: medium;
     border-bottom: 0px;
+    border: none;
 }
 footer{
     background-color: black;
