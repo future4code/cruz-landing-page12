@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{
+    background-color: aqua;
+    height: 65vh;
+    width: 100vw;
+}
+/* main:nth-child(1){
+    background-color: blueviolet;
+    height: 8vh;
+    width: 100vw;
+}
+main:nth-child(2){
+    background-color:yellowgreen;
+    height: 8vh;
+    width: 100vw;
+} */
+
+main{
+    background-color: blueviolet;
+    height: 548vh;
+    width: 100vw;
+}
+.contact{
+    background-color: tomato;
+    height: 124vh;
+    width: 100vw;
+}
+footer{
+    background-color: black;
+    height: 64vh;
+    width: 100vw;
+}

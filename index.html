@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Upfour</title>
-    <link rel="stylesheet" type="stylesheet" href="style.css" media="screen" />
+    <link href="style.css" type="text/css" rel="stylesheet"/>
 
 </head>
 <body>
@@ -15,8 +15,25 @@
         <section></section>
         <section></section>
     </main>
-    <section>
-        <form action=""></form>
+    <section class="contact">
+        <h4>Contato</h4>
+        <form action="processar-contato" method="post">
+            <div>
+                <input type="text" id="nome" placeholder="Nome" />
+            </div>
+            <div>
+                <input type="email" id="email" placeholder="E-mail"/>
+            </div>
+            <div>
+                <!-- Paterner, validação do Telefone como explicado em Aula -->
+                <input type="tel" id="telefone" placeholder="Telefone" 
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"/>
+            </div>
+            <div>
+                <input type="text" id="mensagem" placeholder="Digite sua mensagem!"/>
+            </div>
+            <button class="enviar">Enviar</button>
+        </form>
     </section>
     <footer></footer>
     
