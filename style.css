@@ -1,10 +1,3 @@
-
-
-
-body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
 main {
     width: 100%;
 }
@@ -14,6 +7,199 @@ main {
     background-color: red;
 }
 
-p {
-    background-color: red;
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.bg-img {
+    background-image: url(./imagenes/heylagostechie-IgUR1iX0mqM-unsplash.jpg);
+    min-height: 560px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 98%;
+    position: relative;
+}
+
+.container {
+    position: absolute;
+    margin: 0px;
+    width: 100%;
+}
+
+nav{
+    background: #1F1F24;
+    height: 15vh;
+    width: 100%;
+}
+
+.logo-img{
+    height: 15vh;
+    padding: 0 1.6vw;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 15vh;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 20px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+a.active{
+    background: #D2C2B0;
+    transition: .3s;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    background: #252529;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-login {
+    border-style: solid;
+    border: white;
+}
+
+@media (max-width: 952px){
+    nav ul li a{
+      font-size: 16px;
+    }
+}
+
+@media (max-width: 858px){
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 7.5vh 0;
+      line-height: 4.5vh;
+    }
+    nav ul li a{
+      font-size: 17px;
+    }
+    a.active{
+      background: none;
+      background: #D2C2B0;
+      transition: .3s;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover{
+        background: #252529;
+        color: white;
+        text-decoration: none;
+    }
+}
+
+header{
+    background-color: aqua;
+    height: 65vh;
+    width: 100vw;
+}
+.contact{
+    background-color: white;
+    height: 124vh;
+    width: 100vw;
+}
+form{
+    display: flex;
+    flex-direction:column ;
+    align-items: center;
+    height: 648px;
+}
+input{
+    width: 400px;
+    height: 52px;
+    border-radius: 6px;
+    opacity: 0.9;
+    text-align:left;
+    font:Arial, Helvetica, sans-serif;
+    font-size: medium;
+    margin-bottom: 20px;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    border-image: initial;
+    border-radius: 6px;
+    box-sizing: border-box;
+    text-align: left;
+    outline: none;
+    border-style: solid;
+    border-color:gray;
+    border-width: thin;
+}
+#mensagem{
+    height: 282px;
+    font:Arial, Helvetica, sans-serif;
+    font-size: medium;
+}
+.enviar{
+    width: 400px;
+    height: 52px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 5px;
+    color: #2B2B2B;
+    opacity: 1;
+    text-transform: uppercase;
+    font-weight: bolder;
+    border-radius: 6px;
+    opacity: 0.9;
+    box-shadow: none;
+    outline: none;
+    /* border-color: none; */
+    font-size: medium;
+    /* border-bottom: 0px; */
+    border-style: solid;
+    border-color:#757473;
+    background-color: #d2c2b0;
+    margin-top: 2vh;
+    padding-bottom: 20px;
+}
+
+.aviaozinho{
+    width: 20px;
+    height: 20px;
+    margin-left: 5px;
+    margin-top: 5px;
+}
+footer{
+    background-color: black;
+    height: 64vh;
+    width: 100vw;
 }
