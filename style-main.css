@@ -1,0 +1,110 @@
+
+
+body {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+main {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    border: 0;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+
+    width: 100%;
+}
+
+
+.saiba-mais {
+    /* widows: 80%; */
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+/* .saiba-mais :nth-child(even)  */
+#consciente{
+    background-color: #F7F7F7;
+}
+
+.saiba-mais-item {
+    width: 100%;
+    /* height: 770px; */
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    justify-self: center;
+    justify-items: center;
+    align-self: center;
+
+}
+.saiba-mais-foto {
+    /* width: 500px; */
+    max-width: 100%;
+    /* min-width: 300px; */
+    padding: 60px;
+}
+.saiba-mais-descricao {
+    padding: 5% 0 0 0 ;
+    width: 30%;
+    max-width: 100%;
+    margin: 0 0 0 0;
+    font-size: 1.5em;
+    line-height: 150%;
+}
+#credito {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+p {
+    /* background-color: green; */
+}
+
+#funcionamento-titulo {
+    font-size: 2em;
+    align-self:flex-start;
+}
+
+.funcionamento {
+    /* widows: 80%; */
+    background-color: #eeeeee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+}
+
+
+.funcionamento-item {
+    width: 80%;
+    /* height: 770px; */
+    display: flex;
+    justify-content:center;
+    flex-wrap: wrap;
+    justify-self: center;
+    justify-items: center;
+    align-self: center;
+
+}
+/* .funcionamento-icone { */
+    /* width: 500px; */
+    /* max-width: 10%; */
+    width: 10px;
+    /* min-width: 300px; */
+    /* padding: 10px; */
+}
+/* .funcionamento-icone > img  */
+#icone1 > img {
+    width: 10px;
+}

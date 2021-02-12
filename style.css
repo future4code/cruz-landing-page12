@@ -1,0 +1,19 @@
+
+
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    width: 100%;
+}
+
+.saiba-mais {
+    widows: 100%;
+    background-color: red;
+}
+
+p {
+    background-color: red;
+}
