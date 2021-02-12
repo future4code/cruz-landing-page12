@@ -107,7 +107,9 @@ a:hover{
         text-decoration: none;
     }
 }
-.contact{
+
+/* Estilização footer */
+/* .contact{
     background-color: white;
     height: 124vh;
     width: 100vw;
@@ -161,16 +163,16 @@ input{
     box-shadow: none;
     outline: none;
     /* border-color: none; */
-    font-size: medium;
+    /* font-size: medium; */
     /* border-bottom: 0px; */
-    border-style: solid;
+    /* border-style: solid;
     border-color:#757473;
     background-color: #d2c2b0;
     margin-top: 2vh;
-    padding-bottom: 20px;
-}
+    padding-bottom: 20px; */
+/* } */
 
-.aviaozinho{
+/* .aviaozinho{
     width: 20px;
     height: 20px;
     margin-left: 5px;
@@ -180,4 +182,4 @@ footer{
     background-color: black;
     height: 64vh;
     width: 100vw;
-}
+} */ 

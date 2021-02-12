@@ -3,6 +3,16 @@
     height: 124vh;
     width: 100vw;
 }
+.header-contato{
+    display: flex;
+    text-align: left;
+    justify-content: left;
+    margin-left: 140px;
+}
+hr{
+    width: 60vw;
+    margin-top: -8vh;
+}
 form{
     display: flex;
     flex-direction:column ;
