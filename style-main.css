@@ -97,14 +97,22 @@ p {
     align-self: center;
 
 }
-/* .funcionamento-icone { */
+/* .funcionamento-icone {
     /* width: 500px; */
     /* max-width: 10%; */
     width: 10px;
     /* min-width: 300px; */
     /* padding: 10px; */
-}
+/* } */ */
 /* .funcionamento-icone > img  */
 #icone1 > img {
     width: 10px;
+}
+
+button{
+    border: 1px solid #000;
+    padding: 15px 30px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-bottom: 30px;
 }
