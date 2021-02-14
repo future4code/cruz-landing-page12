@@ -24,7 +24,6 @@ main {
     justify-items: center;
 }
 
-/* .saiba-mais :nth-child(even)  */
 #consciente{
     background-color: #F7F7F7;
 }
@@ -90,7 +89,6 @@ button{
 
 
 .funcionamento {
-    /* widows: 80%; */
     display: flex;
     flex-direction: column;
     /* justify-content: center; */
@@ -100,7 +98,6 @@ button{
 
 .funcionamento-item {
     width: 90%;
-    /* height: 770px; */
     display: flex;
     justify-content:center;
     /* flex-wrap: wrap; */
