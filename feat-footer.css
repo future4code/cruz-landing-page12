@@ -157,8 +157,10 @@ footer{
 
 @media screen and (max-width: 800px) {
     .mapa {
-        padding: 40px 0;
-        width: 100vw;
+        padding-top: 5vh;
+        max-width: 50%;
+        padding-left: 0;
+        
     } 
     .header-contato{
         text-align: center;
@@ -170,5 +172,12 @@ footer{
         justify-content: center;
         max-width: 50%;
         padding-left: 35vw;
+    }
+    footer{
+        justify-content: center;
+    }
+    .logo-footer{
+        width: 240px;
+        height: 80px;
     }
 }
