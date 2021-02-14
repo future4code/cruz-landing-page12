@@ -97,6 +97,8 @@ footer{
     background-color: #1F1F24;
     height: 64vh;
     width: 100vw;
+    display: flex;
+    flex-direction: column;
 }
 .logo-footer{
     height: 129px;
@@ -113,11 +115,23 @@ footer{
     margin-top:80px;
     margin-left: 100px;
 }
-
 .redes{
     margin-top: 5px;
 }
 
+.text-footer{
+    display: flex;
+    width: 374px;
+    height: 65px;
+    justify-content: space-between;
+    list-style: none;
+    align-items: center;
+}
+.container-1 ul{
+    display: inline;
+    justify-content: space-between;
+    
+}
 .text-footer a{
     text-decoration: none;
     color: white;
@@ -131,8 +145,6 @@ footer{
 .botao-texto{
     color:red;
     font-size: 12px;
-
-
 }
 #email2{
     background-color: #1F1F24;
