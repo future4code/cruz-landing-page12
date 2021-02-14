@@ -10,9 +10,11 @@
     margin-left: 104px;
 }
 hr{
-    width: 70vw;
-    margin-top: -7.5vh;
+    width: 82vw;
+    margin-top: -8.5vh;
     margin-left: 228px;
+    background-color: black;
+    height: 1px;
 }
 form{
     display: flex;
@@ -92,7 +94,40 @@ input{
 
 }
 footer{
-    background-color: black;
+    background-color: #1F1F24;
     height: 64vh;
     width: 100vw;
+}
+.rodape{
+
+}
+
+footer ul{
+
+}
+.text-footer  a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    font-weight: 200;
+}
+::marker{
+    list-style: none;
+    color:#1F1F24 ;
+}
+.botao-texto{
+    color: white;
+    font-size: 12px;
+
+
+}
+#email2{
+    background-color: #1F1F24;
+    border-style: solid;
+    border-color:white;
+    border: width 1px;
+}
+
+#email2 :placeholder-shown{
+    color: white;
 }
