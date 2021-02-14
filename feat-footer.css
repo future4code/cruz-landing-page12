@@ -98,6 +98,12 @@ footer{
     height: 64vh;
     width: 100vw;
 }
+.logo-footer{
+    height: 129px;
+    width: 429px;
+    margin-top: 3vh;
+    margin-left: 66px;
+}
 .rodape{
 
 }
