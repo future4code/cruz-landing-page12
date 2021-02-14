@@ -163,12 +163,12 @@ footer{
     .header-contato{
         text-align: center;
         /* justify-content: center; */
-        padding-left: 24vw;
+        padding-left: 32vw;
 
     }
     .form-mapa{
         justify-content: center;
         max-width: 50%;
-        padding-left: 20vw;
+        padding-left: 35vw;
     }
 }
