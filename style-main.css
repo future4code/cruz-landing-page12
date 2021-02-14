@@ -77,8 +77,8 @@ button{
 .titulo {
     font-size: 2em;
     align-self:flex-start;
-    padding-left: 5%;
     min-width: 300px;
+    padding: 20px 0 20px 5%;
 }
 
 .hr-linda {
