@@ -1,19 +1,16 @@
+/* ESTILIZAÇÃO DE FORMULÁRIO E DO FOOTER */
 .contact{
     background-color: white;
     height: 124vh;
     width: 100vw;
     display:inline;
 }
-
-
-
 .header-contato{
     display: flex;
     text-align: left;
     justify-content: left;
     margin-left: 8vw;
 }
-
 form{
     display: flex;
     flex-direction:column ;
@@ -99,7 +96,6 @@ footer{
     width: 429px;
     margin-top: 3vh;
 }
-
 .navegar{
     color: white;
     text-transform: uppercase;
@@ -111,7 +107,6 @@ footer{
 .redes{
     margin-top: 5px;
 }
-
 .form-mapa {
     display: flex;
     justify-content:space-around;
@@ -119,54 +114,16 @@ footer{
     margin-top: 120px;
     margin-bottom: 120px;
 }
-
-/* .text-footer{
-    display: flex;
-    width: 374px;
-    height: 65px;
-    justify-content: space-between;
-    list-style: none;
-    align-items: center;
-}
-.text-footer a{
-    text-decoration: none;
-    color: white;
-    font-size: 17px;
-    font-weight: 200;
-}
-::marker{
-    list-style: none;
-    color:#1F1F24 ;
-}
-.botao-texto{
-    color:red;
-    font-size: 12px;
-
-
-}
-#email2{
-    background-color: #1F1F24;
-    border-style: solid;
-    border-color:white;
-    border: width 1px;
-}
-
-#email2 :placeholder-shown{
-    color: white;
-} */
-
 @media screen and (max-width: 800px) {
     .mapa {
         padding-top: 5vh;
         max-width: 50%;
         padding-left: 0;
-        
     } 
     .header-contato{
         text-align: center;
         /* justify-content: center; */
         padding-left: 32vw;
-
     }
     .form-mapa{
         justify-content: center;
