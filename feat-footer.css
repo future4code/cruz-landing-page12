@@ -2,28 +2,25 @@
     background-color: white;
     height: 124vh;
     width: 100vw;
+    display:inline;
 }
+
+
+
 .header-contato{
     display: flex;
     text-align: left;
     justify-content: left;
-    margin-left: 104px;
+    /* margin-left: 104px; */
 }
-hr{
-    width: 82vw;
-    margin-top: -8.5vh;
-    margin-left: 228px;
-    background-color: black;
-    height: 1px;
-}
+
 form{
     display: flex;
     flex-direction:column ;
     align-items:flex-start;
     justify-content: space-between;
     height: 648px;
-    margin-top: 120px;
-    margin-left: 104px;
+    /* margin-left: 104px; */
 }
 input{
     width: 400px;
@@ -80,7 +77,7 @@ input{
 .aviaozinho{
     width: 20px;
     height: 20px;
-    margin-left: 5px;
+    /* margin-left: 5px; */
     margin-top: 5px;
 }
 #map{
@@ -89,14 +86,11 @@ input{
     justify-content:flex-end;
     height:543px;
     width: 524px;
-    margin-left:500px;
-    margin-top: 20px;
 
 }
 footer{
     background-color: #1F1F24;
     height: 64vh;
-    width: 100vw;
     display: flex;
     flex-direction: column;
 }
@@ -104,7 +98,6 @@ footer{
     height: 129px;
     width: 429px;
     margin-top: 3vh;
-    margin-left: 66px;
 }
 
 .navegar{
@@ -113,7 +106,6 @@ footer{
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
     margin-top:80px;
-    margin-left: 100px;
 }
 .redes{
     margin-top: 5px;
@@ -126,11 +118,6 @@ footer{
     justify-content: space-between;
     list-style: none;
     align-items: center;
-}
-.container-1 ul{
-    display: inline;
-    justify-content: space-between;
-    
 }
 .text-footer a{
     text-decoration: none;
@@ -145,6 +132,8 @@ footer{
 .botao-texto{
     color:red;
     font-size: 12px;
+
+
 }
 #email2{
     background-color: #1F1F24;
@@ -155,4 +144,41 @@ footer{
 
 #email2 :placeholder-shown{
     color: white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.espaco{
+    height: 200PX;
+
+}
+
+.form-mapa {
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+@media screen and (max-width: 950px) {
+    .mapa {
+        padding: 40px 0;
+    }
+  
+}
+
+
+#funcionamento-titulo {
+    font-size: 2em;
+    align-self:flex-start;
+}
+
+.header-contato{
+    display: flex;
+    text-align: left;
+    justify-content: left;
 }
