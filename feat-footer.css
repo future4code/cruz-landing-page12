@@ -104,14 +104,21 @@ footer{
     margin-top: 3vh;
     margin-left: 66px;
 }
-.rodape{
 
+.navegar{
+    color: white;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    margin-top:80px;
+    margin-left: 100px;
 }
 
-footer ul{
-
+.redes{
+    margin-top: 5px;
 }
-.text-footer  a{
+
+.text-footer a{
     text-decoration: none;
     color: white;
     font-size: 17px;
@@ -122,7 +129,7 @@ footer ul{
     color:#1F1F24 ;
 }
 .botao-texto{
-    color: white;
+    color:red;
     font-size: 12px;
 
 
