@@ -1,0 +1,260 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 16px;
+}
+
+.bg-img {
+    background-image:  linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./imagenes/heylagostechie-IgUR1iX0mqM-unsplash.jpg");
+    min-height: 560px;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 98%;
+    position: relative;
+    text-align: center;
+}
+
+.texto-centralizado {
+    position: absolute;
+    top: 65%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2em;
+}
+
+.texto-centralizado2 {
+    position: absolute;
+    top: 73%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 1em;
+}
+
+.texto-centralizado-saiba-mais {
+    position: absolute;
+    top: 84%;
+    left: 48%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.container {
+    position: absolute;
+    margin: 0px;
+    width: 100%;
+}
+
+nav {
+    background: #1F1F24;
+    height: 15vh;
+    width: 100%;
+}
+
+.logo-img {
+    height: 15vh;
+    padding: 0 1.6vw;
+}
+
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+
+nav ul li{
+    display: inline-block;
+    line-height: 15vh;
+    margin: 0 5px;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 17px;
+    padding: 20px 13px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.dropdown-responsa {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown-responsa .drop-btn {
+    font-size: 16px;
+    border: none;
+    outline: none;
+    color: white;
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit; /* Important for vertical align on mobile phones */
+    margin: 0; /* Important for vertical align on mobile phones */
+  }
+
+a.active{
+    background: #D2C2B0;
+    transition: .3s;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover{
+    background: #252529;
+    color: white;
+    text-decoration: none;
+}
+
+.btn-login {
+    border-style: solid;
+    border: white;
+}
+
+@media screen and (max-width: 700px) {
+    .row {
+      flex-direction: column;
+    }
+  }
+
+  @media screen and (max-width: 400px) {
+    .navbar a {
+      float: none;
+      width: 100%;
+    }
+  }
+
+.column-icones-header {
+    float: left;
+    width: 49%;
+    padding: 15px;
+    display: flex;
+    justify-content: flex-start;
+    justify-items: flex-start;
+    align-items: center;
+    flex-direction: row;
+    height: 26vh;
+}
+  
+.row-icones-header:after {
+    content: "";
+    display: flex;
+    flex-wrap: wrap;
+    clear: both;
+    height: 10vh;
+}
+
+.icone-header {
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    border: solid;
+    border-radius: 80px;
+    margin-left: 81px;
+    margin-right: 24px;
+}
+
+@media (max-width: 1200px){
+    nav ul li a{
+      font-size: 16px;
+    }
+}
+
+@media (min-width: 421px) e (max-width: 800px){
+    ul{
+      position: fixed;
+      width: 100%;
+      height: 100vh;
+      background: #2c3e50;
+      top: 80px;
+      left: -100%;
+      text-align: center;
+      transition: all .5s;
+    }
+    nav ul li{
+      display: block;
+      margin: 7.5vh 0;
+      line-height: 4.5vh;
+    }
+    nav ul li a{
+      font-size: 17px;
+    }
+    a.active{
+      background: none;
+      background: #D2C2B0;
+      transition: .3s;
+      color: black;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    a:hover{
+        background: #252529;
+        color: white;
+        text-decoration: none;
+    }
+    .texto-centralizado {
+        position: absolute;
+        top: 56%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: 2em;
+
+    .texto-centralizado-saiba-mais {
+        position: absolute;
+        top: 84%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: 1.5em;
+}
+
+@media screen and (min-device-width : 320px;) and (max-width:420px) {
+    .bg-img {
+        background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(./imagenes/heylagostechie-IgUR1iX0mqM-unsplash.jpg);
+        min-height: 250px;
+        background-position: top;
+        background-repeat: no-repeat;
+        background-size: 98%;
+        position: relative;
+        text-align: center;
+    }
+    .column-icones-header {
+        width: 100%;
+        display: block;
+        margin-bottom: 10px;
+    }
+    .texto-centralizado {
+        position: absolute;
+        top: 66%;
+        left: 48%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-transform: uppercase;
+        font-weight: bolder;
+        font-size: 2em;
+    }   
+    .navbar {
+        display: none;
+    }
+    .nav-drop { 
+        display: flex;
+    }
+
+
+}
